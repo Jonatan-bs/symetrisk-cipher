@@ -1,0 +1,36 @@
+.wrap {
+    margin: 0 auto;
+    width: 540px;
+    background: #0e3f63;
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#key  {
+    font-size: 22px;
+    margin: 20px 0 0 0;
+}
+#plainText {
+    font-size: 22px;
+    margin: 20px 0 0 0;
+    width: 100%;
+    min-height: 150px;
+}
+#result {
+    color: #ffb200;
+    font-size: 40px;
+}
+#btn, #btn2 {
+    font-size: 30px;
+    background: #ffa700;
+    border: 0;
+    color: #0d3f62;
+    padding: 10px;
+}
+#lock {
+    margin: 0 auto;
+    display: block;
+    width: 220px;
+}

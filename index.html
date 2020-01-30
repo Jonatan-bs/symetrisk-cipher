@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cipher</title>
+    <script type="module" src="js/cipher.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="lock.gif" id="lock" alt="lock">
+    <div class="wrap">
+      <h1>Caesar & Vigenére cipher</h1>
+      <input type="radio" name="cipher" value="number" checked>
+      <label for="caesar">Number cipher</label>
+      <br>
+      <input type="radio" name="cipher" value="letter">
+      <label for="Vigenere">Letter cipher</label>
+      <br>
+      <input type="text" name="key" id="key" value="3">
+      <br>
+      <textarea id="plainText"></textarea>
+      <br>
+      <button id="btn"> Encrypt </button>
+      <button id="btn2"> Decrypt </button>
+
+    </div>
+  </body>
+
+</html>
