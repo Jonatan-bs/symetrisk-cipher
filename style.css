@@ -34,3 +34,7 @@
     display: block;
     width: 220px;
 }
+#info {
+    color: #78aacc;
+    font-style: italic;
+}
